@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	min-width: 1000px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	min-height: 87px;
+}
+[alt="logo"]{
+	margin-left: 130px;
+	margin-top: 30px;
+	max-height: 30px;
+}
+header nav{
+	margin-top: 30px;
+	margin-right: 110px;
+}
+header nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 55px;
+	color: rgba(0, 0, 0, 0.84)
+}
+main{
+	background-image: url(../img/phoneBanner.png);
+	min-height: 840px;
+}
+.banner{
+	padding-top: 240px;
+	padding-left: 165px;
+	color: white;
+}
+.banner h1{
+	text-transform: uppercase;
+	padding-bottom: 40px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 52px;
+}
+.banner h4{
+	padding-bottom: 75px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 24px;
+}
+.banner p{
+	padding-bottom: 40px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+}
+span{
+	text-transform: uppercase;
+	background-color: #ffce54;
+	border: 6px solid #ffce54;
+	border-radius: 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+#Email{
+	width: 425px;
+	height: 55px;
+	padding-left: 30px;
+	border: none;
+	border-radius: 5px;
+}
+input::placeholder{
+	font-family: 'Ubuntu', sans-serif;
+	color: rgba(0, 0, 0, 0.3);
+}
+.signup{
+	margin-left: 40px;
+	background-color: #77c344;
+	border: none;
+	height: 55px;
+	width: 115px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	cursor: pointer;
+}
+.benefits{
+	padding-top: 90px;
+	min-height: 960px;
+	position: relative;
+}
+[alt="noteboock"]{
+	position: absolute;
+	top: 245px; left: 764px;
+}
+.benefits h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	color: rgba(45,57,76,0.85);
+}
+.benefits h5{
+	font-family: 'Ubuntu', sans-serif;
+	color: rgba(45,57,76,0.90);
+	font-size: 22px;
+	margin-left: 15px;
+}
+.benefitsText div{
+	display: flex;
+	align-items: center;
+}
+.benefits p{
+	display: block;
+	width: 470px;
+	font-family: 'Open Sans', sans-serif;
+	color: #9499a2;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+.benefitsText{
+	margin-top: 140px;
+	margin-left: 145px;
+}
+.clients{
+	min-height: 160px;
+	background-color: #f8f8f8;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+[alt="Evernote"]{
+	margin-left: 175px;
+}
+[alt="Firefox"]{
+	margin-right: 160px;
+}
+.emailForm{
+	min-height: 450px;
+	padding-top: 125px;
+	text-align: center;
+}
+.emailForm h5{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+	color: #5a626e;
+	margin-bottom: 50px;
+}
+.emailForm p{
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	font-size: 24px;
+	color: #5a626e;
+	margin-bottom: 65px;
+}
+#Emails{
+	width: 630px;
+	height: 70px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	padding-left: 25px;
+}
+.emailForm .signup{
+	height: 70px;
+}
+footer{
+	min-height: 140px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(249,249,249);
+	border-top: 2px solid #e8e8ea;
+}
+#logo{
+	max-height: 25px;
+	margin-left: 130px;
+}
+footer nav a{
+	font-family: 'Ubuntu', sans-serif;
+	color: #4d5664;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 40px;
+}
